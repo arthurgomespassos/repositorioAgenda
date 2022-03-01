@@ -11,8 +11,6 @@ const { loginRequired } = require('./src/middlewares/middleware');
 // Rotas da home
 route.get('/', homeController.index);
 
-// teste remover depois
-
 // Rotas de resgister
 route.get('/register/index', registerController.index);
 route.post('/register/register', registerController.register);
